@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<script>
+window.PAGE_TRACK = 3;
+</script>
+<script src="js/player.js"></script>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Unlock My Heart 💕</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@400;500;600&family=Quicksand:wght@500;600&family=Caveat:wght@600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body data-page="game">
+
+  <div class="blob blob-1"></div>
+  <div class="blob blob-2"></div>
+  <div class="hearts-bg"></div>
+
+  <main class="page">
+    <p class="eyebrow">a tiny game</p>
+    <h2>Match all the pairs to unlock my heart</h2>
+    <p>🎃 pumpkin · 🍑 peach · 🍇 sugarplum · 🧸 bubu · 🧁 sweetums · 💜 me</p>
+
+    <div class="game-stats">
+      <span>Moves: <b class="moves-count">0</b></span>
+      <span>Time: <b class="time-count">0s</b></span>
+    </div>
+
+    <div class="game-board"></div>
+
+    <div class="btn-row">
+      <a class="btn btn-ghost" href="gallery.html">← Back</a>
+    </div>
+  </main>
+
+  <div class="win-modal">
+    <div class="win-card">
+      <div style="font-size:2.4rem;">🎉💕</div>
+      <h2>You unlocked my heart</h2>
+      <p class="win-summary"></p>
+      <a class="btn btn-primary" href="finale.html">See the last thing →</a>
+    </div>
+  </div>
+
+  <div class="player">
+    <button class="player-toggle">▶</button>
+    <button class="player-next">⏭</button>
+    <span class="player-track">Our Song 🎵</span>
+  </div>
+  <div class="music-toast"></div>
+
+  <nav class="orchard-nav">
+    <a data-page="index" href="index.html"></a>
+    <a data-page="note" href="note.html"></a>
+    <a data-page="gallery" href="gallery.html"></a>
+    <a data-page="game" href="game.html"></a>
+    <a data-page="finale" href="finale.html"></a>
+  </nav>
+
+  <script src="js/main.js"></script>
+  <script src="js/player.js"></script>
+  <script src="js/game.js"></script>
+</body>
+</html>
